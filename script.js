@@ -3,10 +3,10 @@ const prompt = require("prompt-sync")({sigint:true});
 function getComputerChoice() {
     //Get the computer to return a random integer from 0 to 2
     let compChoice;
-    choice = Math.floor(Math.random() * 3);
-    console.log(choice)
+    compChoice = Math.floor(Math.random() * 3);
+    console.log(compChoice)
 
-    switch (choice) {
+    switch (compChoice) {
         case 0:
             return "rock"
         case 1:
